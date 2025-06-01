@@ -1,5 +1,8 @@
-add_vhdl_test_sources(
-  alu_tb.vhd
-  control_unit_tb.vhd
-  datapath_tb.vhd
-  processor_tb.vhd)
+add_vhdl_sources(common_defs.vhd
+  alu.vhd
+  control_unit.vhd
+  processor.vhd
+  datapath.vhd
+  control_store.vhd
+  dp_ar_ram.vhd
+  system.vhd)
